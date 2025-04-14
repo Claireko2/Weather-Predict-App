@@ -1,0 +1,10 @@
+module default {
+  type WeatherData {
+    required property timestamp -> datetime;
+    required property temperature -> float64;
+    required property humidity -> float64;
+    required property pressure -> float64;
+    required property rainfall -> float64;
+    required property city -> str;
+  }
+}
