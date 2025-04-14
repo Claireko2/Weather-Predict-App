@@ -1,10 +1,16 @@
 module default {
   type WeatherData {
-    required property timestamp -> datetime;
-    required property temperature -> float64;
-    required property humidity -> float64;
-    required property pressure -> float64;
-    required property rainfall -> float64;
     required property city -> str;
+    required property temperature -> float32;
+    required property feels_like -> float32;
+    required property temp_min -> float32;
+    required property temp_max -> float32;
+    required property pressure -> int16;
+    required property humidity -> int16;
+    required property weather_main -> str;
+    required property weather_description -> str;
+    required property wind_speed -> float32;
+    required property wind_deg -> int16;
+    required property timestamp -> datetime;
   }
 }

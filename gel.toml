@@ -1,4 +1,23 @@
+# EdgeDB Configuration File (edgedb.toml)
+
+# Watch for file changes, typically used for development or migrations
 watch = []
 
 [instance]
-server-version = "6.4"
+# Listen on localhost or a specific IP address
+listen_addresses = "127.0.0.1"  # Listens on localhost for connections, change to "0.0.0.0" for all interfaces
+
+# Port to listen for connections (default is 10701)
+port = 10701
+
+# Optional: set user and password for authentication (use your own values)
+user = "edgedb_user"  # Replace with your EdgeDB username
+password = "your_password"  # Replace with your EdgeDB password
+
+# Optional: configure SSL settings if needed (if you choose to use SSL)
+# ssl_enabled = true
+# ssl_certfile = "/path/to/certfile"
+# ssl_keyfile = "/path/to/keyfile"
+# ssl_ca_certs = "/path/to/ca-certs"
+
+server-version = "6.4"  # Ensure the version is compatible
