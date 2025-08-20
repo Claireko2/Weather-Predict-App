@@ -7,10 +7,10 @@ module default {
     required property temp_max -> float32;
     required property pressure -> int16;
     required property humidity -> int16;
-    required property weather_main -> str;
-    required property weather_description -> str;
     required property wind_speed -> float32;
     required property wind_deg -> int16;
-    required property timestamp -> datetime;
+    required property timestamp -> str;
+    optional property rainfall -> float32;
+    optional property predicted_rain_chance -> float64;
   }
 }
