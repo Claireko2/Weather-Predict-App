@@ -25,27 +25,6 @@ A web application that predicts rainfall probability using real-time weather dat
 
 ---
 
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/YourUsername/WeatherPredict.git
-    cd WeatherPredict
-    
-2. Create a virtual environment:
-    ```bash
-        python -m venv venv
-        venv\Scripts\activate
-
-3. Run the app:
-   ```bash
-        python app.py
-   
-4. Open your browser at http://localhost:5000
-
----
-
 ## Workflow
 - Data Pipeline: Fetches real-time weather data using OpenWeather API and stores it in EdgeDB.
 - Modeling: Logistic Regression model predicts rainfall probability.
