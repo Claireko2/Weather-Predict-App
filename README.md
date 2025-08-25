@@ -11,14 +11,14 @@ A web application that predicts rainfall probability using real-time weather dat
 - Real-time weather data ingestion via **OpenWeather API**
 - Predict rainfall probability using **Logistic Regression** (scikit-learn)
 - Interactive visualizations of weather trends using **Plotly** and **Chart.js**
-- Data stored and managed in **EdgeDB** and **PostgreSQL** for efficient querying
+- Data stored and managed in **EdgeDB** for efficient querying
 
 ---
 
 ## Technology Stack
 
 - **Programming:** Python  
-- **Databases:** EdgeDB, PostgreSQL  
+- **Databases:** EdgeDB
 - **Data Analysis & ML:** Pandas, NumPy, scikit-learn  
 - **Visualization:** Plotly, Chart.js  
 - **API:** OpenWeather API
@@ -33,7 +33,7 @@ A web application that predicts rainfall probability using real-time weather dat
 ---
 
 ### Skills
-Python, EdgeDB, PostgreSQL, scikit-learn, Pandas, NumPy, Plotly, Chart.js
+Python, EdgeDB, scikit-learn, Pandas, NumPy, Plotly, Chart.js
 
 ### Future Enhancements
 - Multi-day rainfall prediction
