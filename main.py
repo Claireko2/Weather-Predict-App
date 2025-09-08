@@ -29,7 +29,7 @@ templates = Jinja2Templates(directory="templates")
 
 def init_edgedb(branch="main"):
     return edgedb.create_async_client(
-        dsn=f"edgedb://my_user:mypassword@localhost:10702/{branch}?tls_security=insecure"
+        dsn=f""
     )
 
 
@@ -351,3 +351,4 @@ async def summary_statistics():
     stats = compute_summary_statistics(df)
     return {"status": "success", "city": city, "summary_statistics": stats}
     
+
