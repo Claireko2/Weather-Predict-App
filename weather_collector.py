@@ -4,7 +4,7 @@ import asyncio
 import httpx
 from datetime import datetime
 
-API_KEY = "da873be98c6b9f980bc9bb83eb8b9714"
+API_KEY = ""
     
 async def fetch_weather_data(lat: float, lon: float):
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_KEY}&units=metric"
@@ -94,4 +94,5 @@ async def get_city_name_by_coordinates(lat: float, lon: float):
             return data["name"]  # Return the city name
         else:
             raise ValueError(f"City name not found in the response for coordinates ({lat}, {lon}). Response: {data}")
+
 
