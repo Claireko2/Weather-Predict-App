@@ -1,5 +1,6 @@
 <img width="1901" height="732" alt="Weather_1" src="https://github.com/user-attachments/assets/acc4eadc-9435-4ce2-9980-272662753fa4" />
-
+<img width="1887" height="901" alt="Weather_2" src="https://github.com/user-attachments/assets/a4caf2d9-7d56-43cc-b46b-c71fcddbfd9f" />
+<img width="1836" height="633" alt="Weather_3" src="https://github.com/user-attachments/assets/0e1c8681-c782-4ac1-983e-fa15048e079b" />
 # Weather Predict Web App
 
 **Data Analyst | Weather Predict Web App** – Developed in Apr 2025  
@@ -42,8 +43,5 @@ Python, EdgeDB, scikit-learn, Pandas, NumPy, Plotly, Chart.js
 - Deploy on cloud for public access
 - Integrate more environmental data sources for richer insights
 
-### Screenshot
-- Interactive Dashboards
-<img width="1887" height="901" alt="Weather_2" src="https://github.com/user-attachments/assets/a4caf2d9-7d56-43cc-b46b-c71fcddbfd9f" />
-<img width="1836" height="633" alt="Weather_3" src="https://github.com/user-attachments/assets/0e1c8681-c782-4ac1-983e-fa15048e079b" />
+
 
